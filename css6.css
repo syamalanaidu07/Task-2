@@ -1,0 +1,433 @@
+/* ==========================================
+   GLOBAL STYLES
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right,#eef5ff,#ffffff);
+    color:#333;
+}
+
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.navbar{
+
+    padding:15px 0;
+
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+
+}
+
+.navbar-brand{
+
+    font-size:30px;
+
+    font-weight:bold;
+
+    letter-spacing:1px;
+
+}
+
+.nav-link{
+
+    font-size:18px;
+
+    margin-left:20px;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#ffd54f !important;
+
+}
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+
+    width:100%;
+
+    background:linear-gradient(135deg,#0d6efd,#6ea8fe);
+
+    text-align:center;
+
+    padding-bottom:70px;
+
+}
+
+.college-banner{
+
+    width:100%;
+
+    max-width:1200px;
+
+    height:auto;
+
+    display:block;
+
+    margin:30px auto 0;
+
+    object-fit:contain;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:10px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+
+}
+
+/* Hero Text */
+
+.hero-content{
+
+    padding-top:40px;
+
+    color:white;
+
+}
+
+.hero-content h1{
+
+    font-size:65px;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+.hero-content p{
+
+    font-size:28px;
+
+    font-weight:300;
+
+}
+
+/* ==========================================
+   PROFILE CARD
+========================================== */
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+
+}
+
+.profile-image{
+
+    width:220px;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:6px solid #0d6efd;
+
+    margin-top:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.card-body{
+
+    padding:40px;
+
+}
+
+.card-body h2{
+
+    margin-bottom:20px;
+
+}
+
+.card-body p{
+
+    font-size:18px;
+
+    margin-bottom:12px;
+
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.btn{
+
+    border-radius:30px;
+
+    padding:12px 35px;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* ==========================================
+   SECTION TITLES
+========================================== */
+
+section{
+
+    padding-top:60px;
+
+    padding-bottom:60px;
+
+}
+
+section h2{
+
+    font-weight:bold;
+
+    color:#0d6efd;
+
+}
+
+/* ==========================================
+   TABLE
+========================================== */
+
+.table{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+}
+
+.table th{
+
+    text-align:center;
+
+    font-size:18px;
+
+}
+
+.table td{
+
+    font-size:17px;
+
+}
+
+.table tbody tr{
+
+    transition:.3s;
+
+}
+
+.table tbody tr:hover{
+
+    background:#dcecff;
+
+}
+
+/* ==========================================
+   CONTACT SECTION
+========================================== */
+
+#contact{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:50px;
+
+    margin-bottom:50px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+}
+
+#contact h3{
+
+    color:#0d6efd;
+
+    margin-bottom:20px;
+
+}
+
+#contact p{
+
+    font-size:18px;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+
+    background:#0b1f44;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+footer h5{
+
+    margin-bottom:10px;
+
+}
+
+footer p{
+
+    margin:0;
+
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN
+========================================== */
+
+@media(max-width:992px){
+
+    .hero-content h1{
+
+        font-size:50px;
+
+    }
+
+    .hero-content p{
+
+        font-size:22px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .college-banner{
+
+        height:110px;
+
+    }
+
+    .hero-content{
+
+        padding:30px 15px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:36px;
+
+    }
+
+    .hero-content p{
+
+        font-size:18px;
+
+    }
+
+    .profile-image{
+
+        width:170px;
+
+        height:170px;
+
+    }
+
+    .card-body{
+
+        text-align:center;
+
+        padding:30px;
+
+    }
+
+    .navbar-brand{
+
+        font-size:24px;
+
+    }
+
+    .nav-link{
+
+        margin-left:0;
+
+    }
+
+    #contact{
+
+        padding:30px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .college-banner{
+
+        height:90px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:30px;
+
+    }
+
+    .hero-content p{
+
+        font-size:16px;
+
+    }
+
+}
