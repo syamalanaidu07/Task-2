@@ -1,0 +1,30 @@
+body{
+    background:#f5f7fa;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card{
+    border:none;
+    border-radius:20px;
+}
+
+img{
+    object-fit:cover;
+}
+
+.table{
+    background:white;
+}
+
+footer{
+    font-size:18px;
+}
+
+.navbar-brand{
+    letter-spacing:1px;
+}
+
+.btn{
+    border-radius:30px;
+    width:180px;
+}
